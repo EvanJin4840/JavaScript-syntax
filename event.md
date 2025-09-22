@@ -1,0 +1,2 @@
+* click
+- occuring when a user presses and releases a mouse button over an element, like a button or a link. It's a fundamental part of creating interactive web pages because it allows the browser to respond to user actions.
