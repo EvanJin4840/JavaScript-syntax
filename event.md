@@ -23,3 +23,12 @@ Common Use Case: Hiding the dropdown menu or tooltip that appeared on mouseover.
 * mousedown / mouseup
 Triggered when: The mouse button is pressed down (mousedown) or released (mouseup).
 Common Use Case: Used for creating drag-and-drop functionality. You start dragging on mousedown and stop on mouseup.
+
+### Keyboard Events
+
+* keydown
+Triggered when: Any key on the keyboard is pressed down.
+Common Use Case: Creating keyboard shortcuts (like Ctrl + S) or controlling a character in a game.
+* keyup
+Triggered when: A key is released.
+Common Use Case: Triggering a search function after a user has finished typing their query. This is often better than keydown because it waits for the character to actually appear in the input box.
