@@ -10,3 +10,16 @@
 - What is the browser's default behavior? 
 When a submit event occurs and you don't use any JavaScript, the browser's default action is to gather all the data from the form's input fields and send it to a server. This process almost always causes the page to reload or navigate to a new page.
 
+### Mouse Events
+
+* mouseover
+Triggered when: The mouse pointer moves onto an element.
+Common Use Case: Showing a dropdown menu, highlighting a button, or displaying a tooltip when a user hovers over something.
+
+* mouseout
+Triggered when: The mouse pointer moves off of an element.
+Common Use Case: Hiding the dropdown menu or tooltip that appeared on mouseover.
+
+* mousedown / mouseup
+Triggered when: The mouse button is pressed down (mousedown) or released (mouseup).
+Common Use Case: Used for creating drag-and-drop functionality. You start dragging on mousedown and stop on mouseup.
