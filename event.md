@@ -32,3 +32,12 @@ Common Use Case: Creating keyboard shortcuts (like Ctrl + S) or controlling a ch
 * keyup
 Triggered when: A key is released.
 Common Use Case: Triggering a search function after a user has finished typing their query. This is often better than keydown because it waits for the character to actually appear in the input box.
+
+### Form Evemnts
+
+* submit: Fires when a form is submitted (e.g., by clicking a submit button or pressing Enter). This is where you'd typically validate input before sending it to a server.
+* focus: Fires when an element (like an input field) receives focus, meaning it's ready for user input.
+* blur: The opposite of focus. Fires when an element loses focus.
+* change: Fires when the value of an element like <input>, <select>, or <textarea> has been changed.
+* input: Fires immediately whenever the value of an <input> or <textarea> element changes. Unlike change, it triggers on every keystroke.
+
