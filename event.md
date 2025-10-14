@@ -41,3 +41,9 @@ Common Use Case: Triggering a search function after a user has finished typing t
 * change: Fires when the value of an element like <input>, <select>, or <textarea> has been changed.
 * input: Fires immediately whenever the value of an <input> or <textarea> element changes. Unlike change, it triggers on every keystroke.
 
+### Document/Window Events
+
+* load: Fires on the window object when the entire page and all its resources (images, CSS files, etc.) have finished loading. This is often used to run setup code.
+* DOMContentLoaded: Fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets and images to finish loading. It's often a better choice than load for running scripts that only need the HTML structure.
+* resize: Fires when the browser window is resized.
+* scroll: Fires when the user scrolls up or down the page.
