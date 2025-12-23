@@ -27,3 +27,23 @@
 
 10. Event Handlers
     Functions inside event listeners perform validation, gather values, and determine whether to add or update a student entry.
+
+11. Variables (let, const, var) – Store data values. let and const are block-scoped; var is function-scoped.
+
+12. Data Types – Common types include string, number, boolean, object, array, and undefined.
+
+13. Operators – Used for math (+, -, \*, /), comparison (===, !=, >, <), and logic (&&, ||, !).
+
+14. Loops – Repeat actions: for, while, and forEach() are typical examples.
+
+15. Functions – Reusable blocks of code. Can be declared with function, or as arrow functions () => {}.
+
+16. Scope – Determines where variables are accessible (global, function, or block scope).
+
+17. Template Literals – Use backticks (``) for embedding variables: `Hello, ${name}!`.
+
+18. Destructuring – Extract values from arrays or objects easily: const {name, age} = person;.
+
+19. Default Parameters – Assign default values to function arguments: function greet(name = 'Guest').
+
+20. Modules (import/export) – Split code into multiple files for better organization.
